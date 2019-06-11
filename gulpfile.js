@@ -34,3 +34,4 @@ function watch() {
 
 
 exports.default = gulp.series(style, js, watch)
+exports.watch = watch
