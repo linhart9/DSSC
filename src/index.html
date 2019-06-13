@@ -7,32 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel='stylesheet' href="css/styles.css">
-    <title>Dougherty's Summer Soccer Camp</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <title>Dougherty Summer Soccer Camp</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class='navbar navbar-expand-lg navbar-dark bg-primary'>
-            <a class="navbar-brand" href="#">Dougherty's Summer Soccer Camp</a>
+    <div id="home">
+        <nav class='navbar sticky-top navbar-expand-lg navbar-dark navbarcolor'>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto mr-5">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="coachbios.html">Coach Bios</a>
+                        <a class="nav-link" href='#coachbios'>Coach Bios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Registration</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -40,14 +38,28 @@
                 </ul>
             </div>
         </nav>
+        <header class="cahoon">
+        </header>
         <div class="jumbotron">
-            <h1 class="display-4">Summer is for soccer!</h1>
-            <p>Its that time of the year again. Summer is here and it's time to spend some time improving your soccer
-                skills with Coach Dougherty, a collection of seasoned instructors, and a number of your favorite Bay
-                High Mens soccer players. Come on out to enjoy the summer sun and get actve with some friendly faces!
-            </p>
+            <div class="container">
+                <h1 class="display-3 text-dark text-center">SUMMER IS FOR SOCCER</h1>
+                <p class="text-dark text-center">Its that time of the year again. Summer is here and it's time to spend
+                    some time
+                    improving your soccer
+                    skills with Coach Dougherty, a collection of seasoned instructors, and a number of your favorite Bay
+                    High Mens soccer players. Come on out to enjoy the summer sun and get active with some friendly
+                    faces!
+                </p>
+                <div class='row'>
+                    <div class="col text-center">
+                        <button id="registerhere" class="btn-lg btn-primary">
+                            Register Here!
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
+        <div class="row pb-5">
             <div class="col-10 col-md-6 container">
                 <div class="carousel slide" id="slideshow">
                     <div class="carousel-inner">
@@ -71,11 +83,76 @@
                 </div>
             </div>
         </div>
+        <div id="coachbios" class="bg-light anchor pt-3">
+            <h1 class="text-center display-3">Coach Bios</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bobby Dougherty</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-4">
+                            <div class="card">
+                                <img class="card-img-top " src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jeff Linhart</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
+                            <div class="card">
+                                <img class="card-img-top " src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aaron Adkins</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
+                            <div class="card">
+                                <img class="card-img-top " src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Alec Petro</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
+                            <div class="card">
+                                <img class="card-img-top " src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ben Huntley</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
+                            <div class="card">
+                                <img class="card-img-top " src="assets/Defaultcoach.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chris Eaton</h5>
+                                    <p class="card-text">Brief bio on coach and coaching history</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
