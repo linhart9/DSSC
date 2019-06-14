@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel='stylesheet' href="css/styles.css">
+    <link rel='stylesheet' href="css/aos.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <title>Dougherty Summer Soccer Camp</title>
 </head>
@@ -59,7 +60,45 @@
                 </div>
             </div>
         </div>
-        <div class="row pb-5">
+        <div id="Details" class='bg-light'>
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card card-light rounded-circle detailcard mx-auto border-lg" data-aos="zoom-in"
+                            data-aos-duration="2000">
+                            <div class="card-img-overlay">
+                                <img src="/assets/gender.png" class="img-fluid">
+                                <h5 class="card-title text-center">
+                                    Boys & Girls
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="card card-light rounded-circle detailcard mx-auto border-lg" data-aos="zoom-in"
+                            data-aos-delay="300" data-aos-duration="2000">
+                            <div class="card-img-overlay">
+                                <img src="/assets/ages.png" class="img-fluid pt-2">
+                                <h5 class="card-title text-center">
+                                    Ages 4-14
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3 mx-auto">
+                        <div class="card card-light rounded-circle detailcard mx-auto border-lg" data-aos="zoom-in"
+                            data-aos-delay="600" data-aos-duration="2000">
+                            <div class="card-img-overlay ">
+                                <img src="/assets/calender.png" class="img-fluid text-center detailimg">
+                                <h5 class="card-title text-center">
+                                    Four 2-Hour <br>Sessions </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel" class="row py-5">
             <div class="col-10 col-md-6 container">
                 <div class="carousel slide" id="slideshow">
                     <div class="carousel-inner">
@@ -83,75 +122,83 @@
                 </div>
             </div>
         </div>
-        <div id="coachbios" class="bg-light anchor pt-3">
-            <h1 class="text-center display-3">Coach Bios</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
-                            <div class="card">
-                                <img class="card-img-top" src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Bobby Dougherty</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+    </div>
+    <div id="coachbios" class="bg-primary anchor py-5">
+        <h1 class="text-center display-3">COACH BIOS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4 mt-4 mx-auto">
+                        <div class="card" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
+                            <img class="card-img-top" src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bobby Dougherty</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-4">
-                            <div class="card">
-                                <img class="card-img-top " src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Jeff Linhart</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+                    </div>
+                    <div class="col-6 col-md-4 mt-4">
+                        <div class="card" data-aos="flip-up" data-aos-delay="400" data-aos-duration="1000">
+                            <img class="card-img-top " src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Jeff Linhart</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
-                            <div class="card">
-                                <img class="card-img-top " src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Aaron Adkins</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+                    </div>
+                    <div class="col-6 col-md-4 mt-4 mx-auto">
+                        <div class="card" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">
+                            <img class="card-img-top " src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Aaron Adkins</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
-                            <div class="card">
-                                <img class="card-img-top " src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Alec Petro</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+                    </div>
+                    <div class="col-6 col-md-4 mt-4 mx-auto">
+                        <div class="card" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">
+                            <img class="card-img-top " src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Alec Petro</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
-                            <div class="card">
-                                <img class="card-img-top " src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ben Huntley</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+                    </div>
+                    <div class="col-6 col-md-4 mt-4 mx-auto">
+                        <div class="card" data-aos="flip-up" data-aos-delay="700" data-aos-duration="1000">
+                            <img class="card-img-top " src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ben Huntley</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-4 mx-auto">
-                            <div class="card">
-                                <img class="card-img-top " src="assets/Defaultcoach.png">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chris Eaton</h5>
-                                    <p class="card-text">Brief bio on coach and coaching history</p>
-                                </div>
+                    </div>
+                    <div class="col-6 col-md-4 mt-4 mx-auto">
+                        <div class="card" data-aos="flip-up" data-aos-delay="800" data-aos-duration="1000">
+                            <img class="card-img-top " src="assets/Defaultcoach.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Chris Eaton</h5>
+                                <p class="card-text">Brief bio on coach and coaching history</p>
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
+    </div>
+    <footer class="pt-5">
+
+    </footer>
     </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/aos.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 

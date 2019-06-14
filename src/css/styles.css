@@ -12,7 +12,7 @@ p {
   background-color: #000000; }
 
 .cahoon {
-  background: url(/assets/Cahoonlogo.png);
+  background: url(/assets/Cahoonlogo2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -26,8 +26,36 @@ p {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000; }
+  background-color: #b8d4ff;
+  border-color: #b8d4ff; }
 
 .bg-light {
-  background-color: #0030b4 !important; }
+  background-color: #b8d4ff !important; }
+
+.bg-primary {
+  background-color: #738fc2 !important; }
+
+.card-text {
+  font-size: 1rem !important; }
+  @media (max-width: 600px) {
+    .card-text {
+      font-size: .75rem !important; } }
+
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 1rem !important; } }
+
+.detailcard {
+  width: 15rem;
+  height: 15rem;
+  border-width: 1rem;
+  border-color: black; }
+
+.jumbotron {
+  margin-bottom: 0rem !important;
+  background-color: #e9e9e9 !important; }
+
+.detailimg {
+  max-height: 8rem;
+  max-width: 8rem;
+  margin-left: 1.25rem; }
