@@ -62,3 +62,26 @@ p {
 .navbold {
   font-weight: bolder;
   color: #b8d4ff !important; }
+
+.faq {
+  font-size: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+  @media (max-width: 744px) {
+    .faq {
+      font-size: 2rem;
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important; } }
+
+.card-link {
+  color: white;
+  font-weight: bold; }
+
+.card-link:hover {
+  color: grey; }
+
+.bg-black {
+  background-color: black; }
+
+.bg-grey {
+  background-color: #c4c4c4; }
