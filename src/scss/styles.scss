@@ -14,7 +14,6 @@ p {
   background-color: #000000;
 }
 .cahoon {
-  background: url(/assets/Cahoonlogo2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -51,7 +50,7 @@ p {
 .detailcard {
     width: 15rem;
     height: 15rem;
-    border-width: 1rem;
+    border-width: .75rem;
     border-color: black;
 }
 .jumbotron {
@@ -61,5 +60,9 @@ p {
 .detailimg {
     max-height: 8rem;
     max-width: 8rem;
-    margin-left: 1.25rem;
+    margin-left: 1.25erem;
+}
+.navbold{
+  font-weight: bolder;
+  color:  #b8d4ff !important
 }
