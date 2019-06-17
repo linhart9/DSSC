@@ -20,22 +20,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto mr-3">
-                <li class="nav-item active">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#home">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#">Details</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href='#coaches'>Coaches</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#faq">FAQ</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link navbold" href="#">Registration</a>
                 </li>
             </ul>
@@ -52,7 +52,7 @@
         </header>
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3 text-dark text-center">SUMMER IS FOR SOCCER</h1>
+                <h1 class="display-3 text-font- text-dark text-center">SUMMER IS FOR SOCCER</h1>
                 <p class="text-dark text-center">Its that time of the year again. Summer is here and it's time to spend
                     some time improving your soccer skills with Coach Dougherty, a collection of seasoned instructors,
                     and a number of your favorite Bay
@@ -136,7 +136,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top" src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Bobby Dougherty</h5>
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top " src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Jeff Linhart</h5>
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top " src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Aaron Adkins</h5>
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top " src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Alec Petro</h5>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top " src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Ben Huntley</h5>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                     <div class="col-6 col-md-4 mt-4 mx-auto px-md-5 px-2">
-                        <div class="card bg-primary" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="card bg-light" data-aos="flip-up" data-aos-delay="100" data-aos-duration="1000">
                             <img class="card-img-top " src="assets/Defaultcoach.png">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Chris Eaton</h5>
@@ -224,7 +224,7 @@
                     </div>
                     <div id="faq3" class="card  mb-1">
                         <a class="card-link card-header bg-black" data-toggle="collapse" href="#answer3">
-                            Where is should we meet?
+                            Where should we meet?
                         </a>
                         <div id="answer3" class="collapse card-body bg-grey" data-parent="#faq">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -244,7 +244,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
     <script src="js/aos.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');

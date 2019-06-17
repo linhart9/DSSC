@@ -28,12 +28,12 @@ function watch() {
     });
     // Looking for any change to any scss file
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss','node_modules/aos/dist/aos.css','src/scss/**/*.scss'], style);
-    gulp.watch(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/umd/popper.min.js','node_modules/aos/dist/aos.js','node_modules\smooth-scroll\dist\smooth-scroll.polyfills.min.js','node_modules\smooth-scroll\dist\smooth-scroll.polyfills.min.js','src/js/**/*.js'], js);
+    gulp.watch('src/js/*.js').on('change', browserSync.reload);
     gulp.watch('src/*.html').on('change', browserSync.reload);
 };
 
 
 exports.default = gulp.series(style, js, watch)
 exports.watch = watch
-exports.js = js
+exports.js
 exports.style = style

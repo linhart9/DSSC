@@ -1,12 +1,15 @@
 h1 {
   font-family: "Rubik", sans-serif !important;
   font-weight: 900 !important; }
-  @media (max-width: 600px) {
+  @media (max-width: 744px) {
     h1 {
-      font-size: 3.5rem !important; } }
+      font-size: 3rem !important; } }
 
 p {
   font-size: 1.5rem; }
+  @media (max-width: 744px) {
+    p {
+      font-size: 1.25rem !important; } }
 
 .navbarcolor {
   background-color: #000000; }
@@ -36,11 +39,11 @@ p {
 
 .card-text {
   font-size: 1rem !important; }
-  @media (max-width: 600px) {
+  @media (max-width: 744px) {
     .card-text {
       font-size: .75rem !important; } }
 
-@media (max-width: 600px) {
+@media (max-width: 744px) {
   .card-title {
     font-size: 1rem !important; } }
 
