@@ -3,12 +3,12 @@ h1 {
   font-weight: 900 !important; }
   @media (max-width: 744px) {
     h1 {
-      font-size: 3rem !important; } }
+      font-size: 2rem !important; } }
 
-p {
+.jumbotext {
   font-size: 1.5rem; }
   @media (max-width: 744px) {
-    p {
+    .jumbotext {
       font-size: 1.25rem !important; } }
 
 .navbarcolor {
@@ -41,7 +41,7 @@ p {
   font-size: 1rem !important; }
   @media (max-width: 744px) {
     .card-text {
-      font-size: .75rem !important; } }
+      font-size: 0.75rem !important; } }
 
 @media (max-width: 744px) {
   .card-title {
@@ -50,7 +50,7 @@ p {
 .detailcard {
   width: 15rem;
   height: 15rem;
-  border-width: .75rem;
+  border-width: 0.75rem;
   border-color: black; }
 
 .jumbotron {
@@ -88,3 +88,37 @@ p {
 
 .bg-grey {
   background-color: #c4c4c4; }
+
+.register-btn {
+  z-index: 50;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  left: 50%;
+  transition: 0.5s ease;
+  opacity: 0;
+  transform: translate(-50%, 200px);
+  animation: x 1s ease forwards; }
+
+.test {
+  background: #000000;
+  z-index: 50;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  left: 0; }
+
+.aligner {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
