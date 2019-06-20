@@ -63,8 +63,7 @@ h1 {
   margin-left: 1.25erem; }
 
 .bold {
-  font-weight: bolder;
-  color: #ffffff !important; }
+  font-weight: bolder; }
 
 .faq {
   font-size: 5rem;
@@ -132,3 +131,12 @@ h1 {
 
 .boldest {
   font-weight: 1000 !important; }
+
+.info {
+  font-size: 1.25rem !important; }
+  @media (max-width: 744px) {
+    .info {
+      font-size: 1rem !important; } }
+
+.roundeder {
+  border-radius: 1.25rem; }
