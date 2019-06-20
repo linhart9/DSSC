@@ -1,9 +1,9 @@
 h1 {
   font-family: "Rubik", sans-serif !important;
-  font-weight: 900 !important; }
+  font-weight: 1000 !important; }
   @media (max-width: 744px) {
     h1 {
-      font-size: 2rem !important; } }
+      font-size: 3rem !important; } }
 
 .jumbotext {
   font-size: 1.5rem; }
@@ -23,11 +23,11 @@ h1 {
 
 .btn-primary {
   color: #fff;
-  background-color: #0030b4;
-  border-color: #0030b4; }
+  background-color: #6386c9;
+  border-color: #6386c9; }
 
 .btn-primary:hover {
-  color: #fff;
+  color: black !important;
   background-color: #b8d4ff;
   border-color: #b8d4ff; }
 
@@ -35,7 +35,7 @@ h1 {
   background-color: #b8d4ff !important; }
 
 .bg-primary {
-  background-color: #738fc2 !important; }
+  background-color: #6386c9 !important; }
 
 .card-text {
   font-size: 1rem !important; }
@@ -47,7 +47,7 @@ h1 {
   .card-title {
     font-size: 1rem !important; } }
 
-.detailcard {
+.highlightcard {
   width: 15rem;
   height: 15rem;
   border-width: 0.75rem;
@@ -57,14 +57,14 @@ h1 {
   margin-bottom: 0rem !important;
   background-color: #e9e9e9 !important; }
 
-.detailimg {
+.highlightsimg {
   max-height: 8rem;
   max-width: 8rem;
   margin-left: 1.25erem; }
 
-.navbold {
+.bold {
   font-weight: bolder;
-  color: #b8d4ff !important; }
+  color: #ffffff !important; }
 
 .faq {
   font-size: 5rem;
@@ -87,7 +87,7 @@ h1 {
   background-color: black; }
 
 .bg-grey {
-  background-color: #c4c4c4; }
+  background-color: #e9e9e9; }
 
 .register-btn {
   z-index: 50;
@@ -122,3 +122,13 @@ h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+.focusestitle {
+  color: #6386c9;
+  font-weight: 1000; }
+
+.focusescard {
+  border: none !important; }
+
+.boldest {
+  font-weight: 1000 !important; }
